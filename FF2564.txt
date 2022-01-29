@@ -1,0 +1,118 @@
+Last login: Fri Jan 21 02:51:34 on console
+khaase@Kawinthida-Haase-MacBook ~ % ping apple.com
+PING apple.com (17.253.144.10): 56 data bytes
+64 bytes from 17.253.144.10: icmp_seq=0 ttl=57 time=13.543 ms
+64 bytes from 17.253.144.10: icmp_seq=1 ttl=57 time=33.615 ms
+64 bytes from 17.253.144.10: icmp_seq=2 ttl=57 time=23.095 ms
+64 bytes from 17.253.144.10: icmp_seq=3 ttl=57 time=22.535 ms
+64 bytes from 17.253.144.10: icmp_seq=4 ttl=57 time=15.369 ms
+64 bytes from 17.253.144.10: icmp_seq=5 ttl=57 time=13.344 ms
+64 bytes from 17.253.144.10: icmp_seq=6 ttl=57 time=15.058 ms
+64 bytes from 17.253.144.10: icmp_seq=7 ttl=57 time=20.634 ms
+64 bytes from 17.253.144.10: icmp_seq=8 ttl=57 time=22.227 ms
+64 bytes from 17.253.144.10: icmp_seq=9 ttl=57 time=15.041 ms
+64 bytes from 17.253.144.10: icmp_seq=10 ttl=57 time=23.249 ms
+64 bytes from 17.253.144.10: icmp_seq=11 ttl=57 time=19.098 ms
+64 bytes from 17.253.144.10: icmp_seq=12 ttl=57 time=23.316 ms
+64 bytes from 17.253.144.10: icmp_seq=13 ttl=57 time=23.417 ms
+64 bytes from 17.253.144.10: icmp_seq=14 ttl=57 time=21.945 ms
+^X64 bytes from 17.253.144.10: icmp_seq=15 ttl=57 time=14.789 ms
+^C
+--- apple.com ping statistics ---
+16 packets transmitted, 16 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 13.344/20.017/33.615/5.173 ms
+khaase@Kawinthida-Haase-MacBook ~ % ping phs.platteview.com
+PING phs.platteview.com (207.148.248.143): 56 data bytes
+64 bytes from 207.148.248.143: icmp_seq=0 ttl=49 time=56.637 ms
+64 bytes from 207.148.248.143: icmp_seq=1 ttl=49 time=54.462 ms
+64 bytes from 207.148.248.143: icmp_seq=2 ttl=49 time=53.959 ms
+64 bytes from 207.148.248.143: icmp_seq=3 ttl=49 time=57.159 ms
+64 bytes from 207.148.248.143: icmp_seq=4 ttl=49 time=54.689 ms
+^C
+--- phs.platteview.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 53.959/55.381/57.159/1.272 ms
+khaase@Kawinthida-Haase-MacBook ~ % ping phs.springfieldplatteview.org
+PING d10nr2egtf9o8t.cloudfront.net (54.230.15.74): 56 data bytes
+64 bytes from 54.230.15.74: icmp_seq=0 ttl=243 time=18.178 ms
+64 bytes from 54.230.15.74: icmp_seq=1 ttl=243 time=24.175 ms
+64 bytes from 54.230.15.74: icmp_seq=2 ttl=243 time=27.940 ms
+64 bytes from 54.230.15.74: icmp_seq=3 ttl=243 time=25.795 ms
+^C
+--- d10nr2egtf9o8t.cloudfront.net ping statistics ---
+4 packets transmitted, 4 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 18.178/24.022/27.940/3.629 ms
+khaase@Kawinthida-Haase-MacBook ~ % ping /Users/khaase/Desktop/Codes/Jgames/Fanfic Corner.html
+usage: ping [-AaDdfnoQqRrv] [-c count] [-G sweepmaxsize]
+            [-g sweepminsize] [-h sweepincrsize] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern]
+            [-S src_addr] [-s packetsize] [-t timeout][-W waittime]
+            [-z tos] host
+       ping [-AaDdfLnoQqRrv] [-c count] [-I iface] [-i wait]
+            [-l preload] [-M mask | time] [-m ttl] [-p pattern] [-S src_addr]
+            [-s packetsize] [-T ttl] [-t timeout] [-W waittime]
+            [-z tos] mcast-group
+Apple specific options (to be specified before mcast-group or host like all options)
+            -b boundif           # bind the socket to the interface
+            -k traffic_class     # set traffic class socket option
+            -K net_service_type  # set traffic class socket options
+            -apple-connect       # call connect(2) in the socket
+            -apple-time          # display current time
+khaase@Kawinthida-Haase-MacBook ~ % ping file:///Users/khaase/Desktop/Codes/Jgames/Fanfic%20Corner.html
+ping: cannot resolve file:///Users/khaase/Desktop/Codes/Jgames/Fanfic%20Corner.html: Unknown host
+khaase@Kawinthida-Haase-MacBook ~ % python3 -m http.server 2564 
+Serving HTTP on :: port 2564 (http://[::]:2564/) ...
+::1 - - [24/Jan/2022 13:50:29] code 400, message Bad request version ('·\x12Ø¨åÑÑ:{¹è<7(ÜÈ×\x8bRª6dºÉ~~\x9f0\x9bI-Í\x00')
+::1 - - [24/Jan/2022 13:50:29] "ü¹)Õ8­]ÁðF¬:ÑZX£'¾tÉ`ÞÝ 9 ·Ø¨åÑÑ:{¹è<7(ÜÈ×Rª6dºÉ~~0I-Í " 400 -
+::1 - - [24/Jan/2022 13:50:29] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:29] "ü#d´ê²¯ëGýdÜö/0XäæºødÁIxj	 XÁÝ·Ábÿ(éOöõE×üdjªñ×½/*NÐÛé zzÀ+À/À,À0Ì©Ì¨ÀÀ/5
+                                      	localhostÿ" 400 -
+::1 - - [24/Jan/2022 13:50:29] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:29] "üsµWG}ïoÙøWZjiþø±ÜC·ðäÈó¡- ík¯3C×]M·mYD¸s¿ **À+À/À,À0Ì©Ì¨ÀÀ/5ZZ
+                        	localhostÿ" 400 -
+::1 - - [24/Jan/2022 13:50:29] code 400, message Bad request syntax ('\x16\x03\x01\x02\x00\x01\x00\x01ü\x03\x03Ýi6\x1a@!\x00\x98lC)]Î:Y8HôC\x8fC')
+::1 - - [24/Jan/2022 13:50:29] "üÝi6@!lC)]Î:Y8HôCC" 400 -
+::1 - - [24/Jan/2022 13:50:31] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:31] "üvÚX&µKLÆÒ>èäçÔÇÃÉï3F¶JZï ÝPeñýz¡üÃ*äÂ}!8øÚ5³R ÚÚÀ+À/À,À0Ì©Ì¨ÀÀ/5
+                             	localhostÿ" 400 -
+::1 - - [24/Jan/2022 13:50:31] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:31] "üVQã	*`m¿EOô¾¶yäí÷7ý>äùóûõ 'ünþô½Ôo:uì¶D
+  Â>±jtÐK¥ ÊÊÀ+À/À,À0Ì©Ì¨ÀÀ/5ªª
+                                    	localhostÿ" 400 -
+::1 - - [24/Jan/2022 13:50:31] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:31] "üëp¨v4·ÕÚÞúkúÀÞZlVFÕôÚÁ7ÊoÌl 1X\*f $L»²9é]äÃÂ$Åìß.TFï§ jjÀ+À/À,À0Ì©Ì¨ÀÀ/5
+                                      	localhostÿ" 400 -
+::1 - - [24/Jan/2022 13:50:31] code 400, message Bad request version ('localhost\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+::1 - - [24/Jan/2022 13:50:31] "ü¤Gµ¨	Eööð×Zp
+                                                  Î»¨©U^¾»+lR$ uSßQú9L|¡¤ãgU÷r×óÇ+®/§® À+À/À,À0Ì©Ì¨ÀÀ/5êê
+                                   	localhostÿ" 400 -
+^C
+Keyboard interrupt received, exiting.
+khaase@Kawinthida-Haase-MacBook ~ % python3 -m http.server 2564
+Serving HTTP on :: port 2564 (http://[::]:2564/) ...
+::1 - - [24/Jan/2022 13:51:54] "GET / HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:51:55] code 404, message File not found
+::1 - - [24/Jan/2022 13:51:55] "GET /favicon.ico HTTP/1.1" 404 -
+::1 - - [24/Jan/2022 13:52:05] "GET /Desktop/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:13] "GET /Desktop/Codes/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:17] "GET /Desktop/Codes/Jgames/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:21] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:21] "GET /Desktop/Codes/Jgames/libr.css HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:21] "GET /Desktop/Codes/Jgames/read.png HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:52:22] code 404, message File not found
+::1 - - [24/Jan/2022 13:52:22] "GET /Users/khaase/Desktop/Pcoll/logos/kksplash.png HTTP/1.1" 404 -
+ping http://localhost:2564/Desktop/Codes/Jgames/Fanfic%20Corner.html
+
+::1 - - [24/Jan/2022 13:53:12] "GET /Desktop/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:53:17] "GET /Desktop/Codes/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:55:35] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:55:59] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 304 -
+::1 - - [24/Jan/2022 13:56:09] code 404, message File not found
+::1 - - [24/Jan/2022 13:56:09] "GET /Desktop/Codes/Jgames/Fanfic HTTP/1.1" 404 -
+::1 - - [24/Jan/2022 13:56:31] "GET /Desktop/Codes/Jgames/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:56:48] "GET /Desktop/Codes/Jgames/ HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:56:49] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 200 -
+::1 - - [24/Jan/2022 13:56:51] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 304 -
+::1 - - [24/Jan/2022 13:56:54] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 304 -
+::1 - - [24/Jan/2022 13:56:55] "GET /Desktop/Codes/Jgames/Fanfic%20Corner.html HTTP/1.1" 304 -
+
